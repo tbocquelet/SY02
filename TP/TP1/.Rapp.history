@@ -1,0 +1,386 @@
+(a <- 3)
+a + >
+a+1
+source("/Users/theo/Google Drive/Cours/A16/SY02/TP1/TP1.R")
+(a <- (log(640320**3 + 744)/sqrt(163)))
+# ajout d'une note au vecteur notes
+X <- read.csv('sy02.csv')
+X
+ncol(X)
+source("/Users/theo/Google Drive/Cours/A16/SY02/TP1/TP1.R")
+names(X)
+(mean[X$median])
+(mean[median])
+(notes_med <- X$median)
+mean(noted_med)
+mean(notes_med)
+mean(notes_med X[X$correcteur.median==EG])
+X[X$correcteur.median==EG]
+X[X$correcteur.median=='EG']
+X[X$median > 10]
+[notes_med > 10]
+notes_med > 10
+X[X$median]
+X$median > 10
+length(X[X$median])
+length(X[$median])
+length(X[median])
+length(X$median)
+X[X$median > 10,]
+X[X$median > 10]
+X[X$median > 10, X$correcteur.median==EG]
+X[X$median > 10, X$correcteur.median=='EG']
+X[X$median > 10, X$correcteur.median=="EG"]
+X[X$median > 10, X$correcteur.median==EG,]
+X[X$correcteur.median==EG]
+X[X$median > 10, X$correcteur.median=="EG"]
+X[X$median > 10, X$correcteur.median="EG"]
+X[X$correcteur.median="EG",]
+col(X)
+names(X)
+X$correcteur.median
+X[X$correcteur.median=EG,]
+X[X$correcteur.median==EG,]
+X[X$correcteur.median="EG",]
+X[X$correcteur.median =EG,]
+X[X$correcteur.median = EG,]
+X[X$correcteur.median]
+X[X$median > 10,]
+X$median[X$median > 10,]
+X[X$correcteur.median == "EG"]
+X[X$correcteur.median == "EG",]
+X[X$correcteur.median == "EG", X$median > 10,]
+X[X$median > 10,]
+(EG <- X[X$correcteur.median == "EG",])
+EG$median
+mean(EG$median)
+names(X)
+(med <- X$median)
+(fin <- X$final)
+fin - med
+(diff <- fin - med)
+sum(diff[diff>0])
+sum(row(diff[diff>0]))
+sum(diff>0)
+nrow(X)
+sum(diff>0)/nrow(X)
+(sum(diff>0)/nrow(X))*100
+library(MASS)
+head(painters)
+hist(painters$Composition)
+(moyenne <- mean(painters[,c[1:4]]))
+(moyenne <- mean(painters[,c(1:4)]))
+painters[,c(1:4)]
+mean(painters[,c(1:4)])
+mean(painters[,c(2:4)])
+mean(painters[,c(1:4)])
+data <- painters[,c(1:4)]
+mean(data)
+painters[,1]
+(moyenne <- mean(painters[,1:4]))
+painters[,c(1:4)]
+(moyenne <- (painters[,1] + painters[,2] + painters[,3] + painters[,4])/4)
+mean(c(painters[,1], painters[,2], painters[,3], painters[,4]))
+nrow(painters)
+(moy_emp <- sum(moyenne)/nrow(painters))
+mean(moyenne)
+var(moyenne)
+sd(moyemme)
+sd(moyenne)
+hist(moyenne)
+(moy_emp <- sum(moyenne)/nrow(painters))
+?norm
+1 - pnorm(3, type = "O")
+1 - pnorm(3, mean=0, sd=1)
+pnorm(42, mean=35, sd=6)
+pnorm(50, mean=35, sd=6) - pnorm(40, mean=35, sd=6)
+?binom
+pbinom(4, 5, 1/2)
+/binom
+?binom
+pbinom(4, 5, 0.5)
+pbinom(9, 10, 0.5)
+pbinom(29, 30, 0.5)
+help(Binomial)
+dbinom(4, 5, 0.5)
+dbinom(9, 10, 0.5)
+dbinom(29, 30, 0.5)
+pnorm(50, mean=35, sd=6) - pnorm(40, mean=35, sd=6)
+pnorm(42, mean=35, sd=6)
+1 - pnorm(3, mean=0, sd=1)
+dbinom(15, 20, 0.5) + dbinom(16, 20, 0.5) + dbinom(17, 20, 0.5) + dbinom(18, 20, 0.5) + dbinom(19, 20, 0.5) + dbinom(20, 20, 0.5)
+?binomial
+?Binomial
+pnorm(42, mean=35, sd=6)
+dnorm(42, mean=35, sd=6)
+pnorm(42, mean=35, sd=6)
+sum(dbinom(15:20, 20, 0.5))
+sum(dbinom(10:15, 20, 0.5))
+qnorm(0.05)
+qnorm(0.05, mean=0, sd=1)
+?norm
+qnorm(0.1, mean=0, sd=1)
+qnorm(0.9, mean=0, sd=1)
+qnorm(0.5)
+qchisq(0.05, df=10)
+qchisq(0.1, df=10)
+qchisq(0.9, df=10)
+qt(0.05, df=5)
+qt(0.1, df=5)
+qt(0.9, df=5)
+qf(0.05, df=2)
+qf(0.1, df=2)
+qf(0.9, df=2)
+?Fisher
+?f
+?qf
+qf(0.05, df1=2, df2=5)
+qf(0.1, df1=2, df2=5)
+qf(0.9, df1=2, df2=5)
+pnorm(42, mean=35, sd=6)
+pnorm(50, mean=35, sd=6) - pnorm(40, mean=35, sd=6)
+?Binomiale
+?Binomial
+pnorm((42-35/6))
+pnorm(42, mean=35, sd=6)
+pnorm((42-35)/6)
+}
+?'in'
+}
+dloi <- function(x,b){
+}
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+ 	res <- a*x#
+	if(x<0) { res<- 0}#
+	if(x>b) { res<- 0}#
+ 	return(res)#
+ }
+}
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+curve(dloi(x,3), from=-5, to=5)
+ploi <- function(x,b){#
+ 	return(integrate(dloi(x,b), 0, x))#
+ }
+curve(ploi(x,3), from=-5, to=5)
+ploi <- function(x,b){#
+ 	return(integrate(dloi, 0, x))#
+ }
+curve(ploi(x,3), from=-5, to=5)
+ploi <- function(x,b){#
+ 	res <- (x^2)/(b^2)#
+ 	if(x <= 0) {res <- 0}#
+ 	if(x > b) {res <- 1}#
+ }
+curve(ploi(x,3), from=-5, to=5)
+ploi <- function(x,b){#
+ 	res <- (x^2)/(b^2)#
+ 	if(x <= 0) {res <- 0}#
+ 	if(x > b) {res <- 1}#
+ 	return(res)#
+ }
+curve(ploi(x,3), from=-5, to=5)
+curve(ploi(x,3), from=0, to=5)
+ploi <- function(x,b){#
+ 	res <- (x^2)/(b^2)#
+ 	if(x<=0) {res <- 0}#
+ 	if(x>b) {res <- 1}#
+ 	return(res)#
+ }
+curve(ploi(x,3), from=0, to=5)
+ploi(c(-1,0,1,2,3,4,5),3)
+ploi <- function(x,b){#
+ 	res <- (x^2)/(b^2)#
+ 	if(x<=0) {res<-0}#
+ 	if(x>b) {res<-1}#
+ 	return(res)#
+ }
+ploi(c(-1,0,1,2,3,4,5),3)
+ploi <- function(x,b){#
+ 	res <- (x^2)/(b^2)#
+ 	res[x<=0] <- 0#
+ 	res[x>b] <- 1#
+ 	return(res)#
+ }
+curve(ploi(x,3), from=0, to=5)
+curve(ploi(x,3), from=-5, to=5)
+qloi <- function(alpha,b){#
+ 	res <- b*sqrt(alpha)#
+ 	res[alpha=0] <- 0#
+ 	res[alpha=1] <- b#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+ 	res <- a*x#
+	if(x<0) { res<- 0}#
+	if(x>b) { res<- 0}#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+ 	res <- a*x#
+	if(x<0) {res<- 0}#
+	if(x>b) {res<- 0}#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+ 	res <- a*x#
+	if(x < 0) {res<- 0}#
+	if(x > b) {res<- 0}#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+ 	res <- a*x#
+	if(x < 0){res<- 0}#
+	if(x > b){res<- 0}#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+dloi <- function(x,b){#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi(c(-1,0,1,2,3,4,5),3)
+dloi <- function(x,b){#
+ 	if(x<0 or x>b) stop('non definie pour x<0 ou x>b')#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	if(x<0 or x>b) {stop('non definie pour x<0 ou x>b')}#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+library(MASS)#
+head(painters)
+dloi <- function(x,b){#
+ 	if(x<0 or x>b) {stop('non definie pour x<0 ou x>b')}#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	if(x<0 & x>b) {stop('non definie pour x<0 ou x>b')}#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	if(x<0 & x>b) stop('non definie pour x<0 ou x>b')#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+dloi <- function(x,b){#
+ 	if(x<0 | x>b) stop('non definie pour x<0 ou x>b')#
+ 	a <- 2/b^2#
+	res <- a*x#
+	res[x<0] <- 0#
+	res[x>b] <- 0#
+ 	return(res)#
+ }
+ploi <- function(x,b){#
+ 	if(x<=0 | x>b) stop('non definie pour x<=0 ou x>b')#
+ 	res <- (x^2)/(b^2)#
+ 	res[x<=0] <- 0#
+ 	res[x>b] <- 1#
+ 	return(res)#
+ }
+qloi <- function(alpha,b){#
+ 	if(alpha=0 | alpha=1) stop('non definie pour alpha=0 ou alpha=1')#
+ 	res <- b*sqrt(alpha)#
+ 	res[alpha=0] <- 0#
+ 	res[alpha=1] <- b#
+ 	return(res)#
+ }
+qloi <- function(alpha,b){#
+ 	if(alpha==0 | alpha==1) stop('non definie pour alpha=0 ou alpha=1')#
+ 	res <- b*sqrt(alpha)#
+ 	res[alpha=0] <- 0#
+ 	res[alpha=1] <- b#
+ 	return(res)#
+ }
+X <- read.csv('sy02.csv')
+(fin <- X$final)
+boxplot(fin)
+boxplot(fin)
+names(X)
+stem(X$moyenne)
+hist(X$final)
+X$final
+hist(X$moyenne, breaks=c(0, 15, 20))
+hist(X$final, breaks=c(0, 15, 20))
+sum(diff(H$breaks)*H$density)
+H <- hist(X$final, breaks=c(0, 15, 20))
+sum(diff(H$breaks)*H$density)
+H
+H$density
+H <- hist(X$final, breaks=c(0, 15, 20))
+plot(X$median, X$final)
+plot(final ~ median, data=X)
+plot(X$median, X$final)
+boxplot(X$final ~ X$correcteur.final)
+DH <- X[X$correcteur.final == "DH",]
+DH
+DH <- X[X$correcteur.final == DH,]
+names(X)
+X$correcteur.final
+(DH <- X[X$correcteur.final == "DH",])
+(stock <- DH$correcteur.final)
+boxplot(DH)
+boxplot(stock)
+boxplot(X$final ~ X$correcteur.final)
+(fin <- X$final)
+DH
+(stock <- DH$final)
+boxplot(stock)
+boxplot(X$final ~ X$correcteur.final)
+stipchart(X$final ~ X$correcteur.final)
+stripchart(X$final ~ X$correcteur.final)
+stripchart(X$correcteur.final ~ X$final)
+stripchart(X$final ~ X$correcteur.final)
+stripchart(X$final ~ X$correcteur.final, method="jitter")
+stripchart(X$final ~ X$correcteur.final)
+stripchart(X$final ~ X$correcteur.final, method="jitter")
